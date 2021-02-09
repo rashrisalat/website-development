@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 991px){
+.form__button{
+    margin: 60px 0;
+}
+    .grey-block.clients{
+        left: 0;
+    }
+    .grey-block.sales{
+        left: 261;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-block,.left-block{
+        width: 100%;
+    }
+    .rectangles{
+        width: 100%;
+    }
+    .rectangles {
+        position: relative;
+        height: 680px;
+        background-image: url(img/triangle.svg), url(img/girl.svg), url(img/orange.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: bottom 50px left 154px, top 1px center, bottom 5px center;
+    }
+    .nav__burger{
+        display:block;
+        position: absolute;
+        top: -48px;
+       right: 8px;
+        width:30px;
+        height: 30px;
+    }
+    .nav__burger:before,
+    .nav__burger:after{
+        content:"";
+        background-color: white;
+        height: 2px;
+        width: 100%;
+        position:absolute;
+        left:0;
+    }
+    .nav__burger:before{
+        top:0;
+    }
+    .nav__burger:after{
+        bottom:0;
+    }
+    .nav__burger span{
+        background-color: white;
+        height: 2px;
+        width: 100%;
+        position:absolute;
+        left:0;
+        top: 14px;
+    }
+
+    .nav__logo{
+        position: absolute;
+        margin-left: 12px;
+        top: -48px;
+    }
+    .nav{
+        display: none;
+        background-color: #F86161;
+        height: 62%;
+        width:97%;
+        position: absolute;
+        top:0;
+        left:0;
+        margin: 68px 6px;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .right-block__button-content span{
+        display:none;
+    }
+    .right-block__button-content{
+        border-radius: 20px;
+        padding: 10px 10px;
+        position: absolute;
+        top: 12px;
+        right: 65px;
+    }
+   .right-block__tel{
+       position: absolute;
+    top: 26px;
+    left: 70px;
+   }
+   .form{
+       display: flex;
+       flex-direction: column;
+   }
+   .form__input{
+       padding: 19px 11px;
+       margin-right: 29px;
+   }
+   .form__button{
+       margin: 35px 28px 0 0;
+       position: static;
+   }
+    .right-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .grey-block.sales{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+    .graphics{
+        position: static;
+        width: 75%;
+        text-align: center;
+        margin-left: 43px;
+
+    }
+    .grey-block{
+        left:0;
+    }
+}
